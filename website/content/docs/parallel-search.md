@@ -27,4 +27,3 @@ In **Headers**, add `User-Agent` as the key and `Magec (https://github.com/achet
 Save the server, then [enable it on the agent](/docs/mcp/#connecting-mcp-servers-to-agents) you want to use for research. Try asking: "Find the official Model Context Protocol documentation, read its introduction, and explain what MCP connects. Include the source URL."
 
 The agent can search for sources and fetch their content through Magec's HTTP transport. If the tools are missing, check that the server is enabled on that agent and that Magec can reach `https://search.parallel.ai`. If you hit a free-tier rate limit, wait before retrying or consult the [Parallel Search MCP documentation](https://docs.parallel.ai/integrations/mcp/search-mcp) for authenticated usage and higher limits.
-
